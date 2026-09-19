@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="109"><author>True Life</author><version>0.1.0.0</version><title><en>True Forestry Life</en><it>True Forestry Life</it></title><description><en><![CDATA[TRUE LIFE forestry module foundation.]]></en><it><![CDATA[Base del modulo forestale TRUE LIFE.]]></it></description><iconFilename>icon_trueLife.dds</iconFilename><multiplayer supported="true"/><extraSourceFiles><sourceFile filename="scripts/TrueForestryLife.lua"/></extraSourceFiles></modDesc>
