@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="109"><author>True Life</author><version>0.1.0.0</version><title><en>True Quarry &amp; Heavy Duty</en><it>True Cava e Heavy Duty</it></title><description><en><![CDATA[TRUE LIFE quarry and heavy-duty module foundation.]]></en><it><![CDATA[Base del modulo cava e heavy-duty TRUE LIFE.]]></it></description><iconFilename>icon_trueLife.dds</iconFilename><multiplayer supported="true"/><extraSourceFiles><sourceFile filename="scripts/TrueQuarryHeavyDuty.lua"/></extraSourceFiles></modDesc>
