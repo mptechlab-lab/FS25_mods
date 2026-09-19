@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="109">
+    <author>True Farm Life</author>
+    <version>1.2.0.0</version>
+
+    <title>
+        <en>True Farm Life - Mechanical Realism</en>
+        <it>True Farm Life - Realismo Meccanico</it>
+    </title>
+
+    <description>
+        <en><![CDATA[
+True Farm Life adds a persistent mechanical condition system to the vehicles and implements already in your savegame.
+
+Every eligible machine tracks operating hours and four service components. Dirty, hard-working machinery ages faster. Neglect can cause a flat tyre, starter/battery fault, engine fault or hydraulic/tool failure. A failed vehicle must be brought to a normal workshop: the standard Repair command also repairs the True Farm Life components and includes the corresponding parts cost.
+
+While inside a machine, press I (configurable in Controls) to open or close the diagnostic panel. The panel shows component condition, operating hours, active fault and the next recommended service.
+
+The mod uses savegame persistence and server-authoritative synchronization. It is PC/Mac only because it contains Lua scripts.
+]]></en>
+        <it><![CDATA[
+True Farm Life aggiunge un sistema persistente di condizioni meccaniche ai veicoli e agli attrezzi già presenti nel salvataggio.
+
+Ogni mezzo idoneo registra le ore operative e quattro componenti soggetti a manutenzione. Sporco e lavoro gravoso accelerano l'usura. Trascurare la manutenzione può provocare gomma forata, batteria/avviamento guasto, motore fermo oppure guasto idraulico o dell'attrezzo. Il mezzo va portato in una normale officina: il comando Ripara standard sistema anche i componenti di True Farm Life e comprende il costo ricambi.
+
+All'interno di un mezzo premi I (modificabile nei Comandi) per aprire o chiudere la diagnostica. Il pannello mostra stato dei componenti, ore operative, guasto attivo e manutenzione consigliata.
+
+La mod salva i dati nel salvataggio e sincronizza lo stato dal server. È solo PC/Mac perché contiene script Lua.
+]]></it>
+    </description>
+
+    <iconFilename>icon_trueFarmLife.dds</iconFilename>
+    <multiplayer supported="true"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/TrueFarmLife.lua"/>
+    </extraSourceFiles>
+
+    <l10n filenamePrefix="l10n/l10n"/>
+
+    <actions>
+        <action name="TFL_TOGGLE_DIAGNOSTICS"/>
+        <action name="TFL_CYCLE_PROFILE"/>
+        <action name="TFL_INSPECT_VEHICLE"/>
+    </actions>
+    <inputBinding>
+        <actionBinding action="TFL_TOGGLE_DIAGNOSTICS">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_i"/>
+            <binding device="0_XINPUT_GAMEPAD" input="BUTTON_5 BUTTON_4"/>
+        </actionBinding>
+        <actionBinding action="TFL_CYCLE_PROFILE">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_o"/>
+        </actionBinding>
+        <actionBinding action="TFL_INSPECT_VEHICLE">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_k"/>
+        </actionBinding>
+    </inputBinding>
+</modDesc>
