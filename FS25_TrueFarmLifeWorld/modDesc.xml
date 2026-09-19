@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="109">
+    <author>True Farm Life</author>
+    <version>0.3.0.0</version>
+    <title>
+        <en>True Farm Life - World &amp; Farm Systems</en>
+        <it>True Farm Life - Mondo e Azienda</it>
+    </title>
+    <description>
+        <en><![CDATA[Companion foundation for True Farm Life. Requires FS25_TrueFarmLife.]]></en>
+        <it><![CDATA[Modulo compagno per True Farm Life. Richiede FS25_TrueFarmLife.]]></it>
+    </description>
+    <iconFilename>icon_trueFarmLifeWorld.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <extraSourceFiles>
+        <sourceFile filename="scripts/TrueFarmLifeWorld.lua"/>
+    </extraSourceFiles>
+    <l10n filenamePrefix="l10n/l10n"/>
+    <dependencies>
+        <dependency>FS25_TrueFarmLife</dependency>
+    </dependencies>
+</modDesc>
