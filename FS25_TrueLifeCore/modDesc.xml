@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="109"><author>True Life</author><version>0.1.0.0</version><title><en>True Life Core</en><it>True Life Core</it></title><description><en><![CDATA[Lightweight TRUE LIFE module registry and event bus.]]></en><it><![CDATA[Registro moduli e bus eventi leggero per TRUE LIFE.]]></it></description><iconFilename>icon_trueLife.dds</iconFilename><multiplayer supported="true"/><extraSourceFiles><sourceFile filename="scripts/TrueLifeCore.lua"/></extraSourceFiles></modDesc>
